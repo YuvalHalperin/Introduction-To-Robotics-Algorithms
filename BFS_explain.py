@@ -1,5 +1,9 @@
 import numpy as np
-
+'''
+In this function BFS we implement the map as a matrix.
+A place we did not visit is marked with -2.
+A checkpoint is marked with -1
+'''
 
 def BFS_func(matx, x_start, y_start):
     queue = [(x_start, y_start)]
